@@ -71,6 +71,7 @@ class Admin extends User {
         try {
             // Delete related data from other tables
             $queries = [
+                "DELETE FROM CartItems WHERE cart_id IN (SELECT cart_id FROM Cart WHERE user_id = ?)",
                 "DELETE FROM Cart WHERE user_id = ?",
                 "DELETE FROM Cards WHERE user_id = ?",
             ];
