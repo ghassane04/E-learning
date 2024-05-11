@@ -1,0 +1,48 @@
+.contfoot {
+    display: flex;
+    line-height: 2;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.courses {padding: 0 50px;}
+.card {
+    margin: 0px 5px;
+    width: 300px;
+    height: fit-content;
+    aspect-ratio: 3/3; /*3bar wahed dyal tssawer*/
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+/* -------------filter style -----------*/
+.allpage {
+    display: flex;
+    margin-right: 40px;
+}
+#searchbar {margin-right: 350px;}
+.categories {
+    margin-top: 25px;
+    margin-left: 65px;
+}
+.p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+p,.li {color: black;}
+#btn {
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: rgb(26, 71, 175);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover {
+    color: black;
+    background-color: rgb(241, 237, 9);
+}

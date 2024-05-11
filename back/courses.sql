@@ -1,0 +1,16 @@
+INSERT INTO courses (title, price, image, category_id) VALUES ('The Basics Of Javascript',29.9, 'images/whatisJS.jpeg',3);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Basics Of HTML',9.9,'images/html.jpeg', 1);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Basics Of CSS',5.9,'images/cssbas.jpeg', 2);
+INSERT INTO courses (title, price, image, category_id) VALUES ('HTML Elements And Tags',9.9, 'images/html_tags.jpeg',1);
+INSERT INTO courses (title, price, image, category_id) VALUES ('CSS Selectors',69.9, 'images/css_selectors.jpeg',2);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Javascript Operators And Conditions',29.9, 'images/js_operators.jpeg',3);
+INSERT INTO courses (title, price, image, category_id) VALUES ('HTML Attributes And Values',19.9, 'images/html_attri.jpeg',1);
+INSERT INTO courses (title, price, image, category_id) VALUES ('CSS Properties',29.9, 'images/css_propreties.jpeg',2);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Javascript Objects And Arrays',39.9, 'images/js _array.jpeg',3);
+INSERT INTO courses (title, price, image, category_id) VALUES ('CSS Animations',19.9, 'images/cssanim.jpeg',2);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Javascript Events',59.9, 'images/js_event.jpeg',3);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Css Colors',29.9, 'images/css_color.jpeg',2);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Getting Started With Php',15.9, 'images/php_basics.jpeg',4);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Functions And Loops With Javascript',19.9,'images/js_funct.jpeg',3);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Connecting To Database Using PHP',29.9, 'images/conect_data_php.jpeg',4);
+INSERT INTO courses (title, price, image, category_id) VALUES ('Manipulating Crud Using Php',45.9, 'images/crud_php.jpeg',4);
